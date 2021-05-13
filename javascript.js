@@ -248,7 +248,7 @@ console.log(ticketMedioDep)
 
 //Departamento mais valioso (qual o departamento que tem a maior somatória dos valores dos itens)
 
-
+/*
 function departamentoCaro() {
   const produtos = new Map();
   for (product of Computers) {
@@ -265,7 +265,7 @@ function departamentoCaro() {
 }
 departamentoCaro()
 
-
+*/
 
 
 
@@ -273,6 +273,34 @@ departamentoCaro()
 
 
 //Produto mais caro da loja (bem como seu departamento)
+/*
+function ProdutoCaro(){
+  let produto = []
+  for (product of Computers){
+    produto.push(product.preco)
+  }
+  let maisCaro = Math.max(...produto)
+  console.log(maisCaro)
+}
+
+ProdutoCaro()
+
+*/
+
 
 
 //Produto mais barato da loja (bem como seu departamento)
+
+/*
+function ProdutoBarato(){
+  let produto = []
+  for (product of Computers){
+    produto.push(product.preco)
+  }
+  let maisBarato = Math.min(...produto)
+  console.log(maisBarato)
+}
+
+ProdutoBarato()
+
+*/
